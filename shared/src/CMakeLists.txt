@@ -9,7 +9,7 @@ set(LIB_NAME "hello")
 
 set_target_properties(hello_shared PROPERTIES
   OUTPUT_NAME ${LIB_NAME}
-  #SOVERSION 123
+  SOVERSION 123
   )
 
 install(
